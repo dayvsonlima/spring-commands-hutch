@@ -18,6 +18,6 @@ module Spring
       end
     end
 
-    Spring.register_command "hutch", RSpec.new
+    Spring.register_command "hutch", Hutch.new
   end
 end
